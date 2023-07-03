@@ -37,6 +37,13 @@ This documents shows hot to setup the database.
     python manage.py migrate
     ```
 
+    if you have problems run:
+    ```shell
+    pip install psycopg2-binary --force-reinstall --no-cache-dir
+    ```
+
+
+
 ## Create models
 
 1. Create a model in myapp editing myapp/models.py.

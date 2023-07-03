@@ -25,7 +25,7 @@ This documents shows the process of creating and running your first app in Djang
 
 
     def index(request):
-        return HttpResponse("Hello, world. You're at the polls index.")
+        return HttpResponse("Hello, world. You're at the my app index.")
     ```
 
     To call the view, you need to map it to a URL, and for this you need a URLconf.
@@ -67,7 +67,7 @@ This documents shows the process of creating and running your first app in Djang
     from django.urls import include, path
 
     urlpatterns = [
-        path("polls/", include("myapp.urls")),
+        path("myapp/", include("myapp.urls")),
         path("admin/", admin.site.urls),
     ]
     ```
