@@ -14,7 +14,7 @@ All new Marketing Cloud technologies implement REST API, .
 
 * Most REST call are synchronous.
 
-* Timeout values are 120seconds for non-tracking operations and 300 seconds for tracking and data retrieve operations.
+* Timeout values are 120 seconds for non-tracking operations and 300 seconds for tracking and data retrieve operations.
 
 * The maximum payload of any calls is four megabytes.
 
